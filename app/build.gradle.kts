@@ -39,6 +39,8 @@ android {
 dependencies {
     // UniFFI
     implementation("net.java.dev.jna:jna:5.6.0@aar")
+    // Audio(aac) Encode / Decode lib
+    implementation("io.github.takusan23:akaricore:5.0.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
